@@ -1,3 +1,4 @@
 # proyecto_1_Paginaweb
-Maikol Stiven Vargas Pinilla 
-Jheol de los Santos Olmos Ortiz
+Colaboradores:  
+Maikol Stiven Vargas Pinilla - 55224029  
+Jheol de los Santos Olmos Ortiz - 55224041  
