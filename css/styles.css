@@ -32,6 +32,9 @@ a.categoria {
 a.categoria:hover {
     background-color: #000000; 
 }
+.center{
+    text-align: center;
+}
 
 main {
     padding: 20px;
@@ -43,6 +46,54 @@ h2 {
 img {
     border-radius: 10px;
     margin: 10px 0;
+    text-align: center;
 }
+/*Tabla de televisorhtml*/
+.table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+th, td {
+  border: 1px solid #000000;
+  padding: 12px ;
+  text-align: left;
+}
+th{
+    background-color: rgb(223, 193, 193);
+    font-weight: bold;
+    color: #000000;
+}
+td{
+    color: #000000;
+}
+h3{
+    margin-left: 25px;
+}
+p{
+    margin-left: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.precio {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      margin-left: 25px;
+}
+
+.boton {
+      background: #0d1a6d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      font-size: 25px;
+      width: 100px;
+      margin-left: 25px;
+ }
+
 
 
