@@ -191,10 +191,36 @@ p{
   display: none; /* Oculta los radios */
 }
 .star-rating label {
-  color: #ccc;       /* Color de estrellas vacías */
+  color: #ccc;       
   cursor: pointer;
 }
+/* Estrellas seleccionadas en dorado */
 .star-rating input:checked ~ label {
-  color: gold;       /* Estrellas seleccionadas en dorado */
+  color: gold;       
 }
+.perfil{
+ width: 30px;
+ text-align: right;       
+}
+/* Color de estrellas vacías */
+.star-rating label:hover,
+    .star-rating label:hover ~ label {
+      color: gold;     
+    }
+
+.perfil {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -50px;
+    margin-left: -30px;
+}
+.perfil:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s;
+}
+
+
+
 
