@@ -181,3 +181,20 @@ p{
 .exit:hover{
     background-color: #007bff;
 }
+.star-rating {
+  direction: rtl;   /* Para que las estrellas se llenen de derecha a izquierda */
+  font-size: 40px;  /* Tamaño de las estrellas */
+  display: inline-flex;
+  margin-left: 15px;
+}
+.star-rating input {
+  display: none; /* Oculta los radios */
+}
+.star-rating label {
+  color: #ccc;       /* Color de estrellas vacías */
+  cursor: pointer;
+}
+.star-rating input:checked ~ label {
+  color: gold;       /* Estrellas seleccionadas en dorado */
+}
+
